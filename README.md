@@ -1,5 +1,5 @@
 
-# Fully functional, four-operational calculator 
+# Fully Functional Calculator in C
 
 "Fully functional, four-operational calculator programmed in C. Operations available are subtraction, multiplication, division  and addition. Users can choose which operation they want to perform."
 
