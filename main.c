@@ -8,12 +8,12 @@ int main () {
     char op;
 
     printf ("Enter a Number: ");
-    scanf ("%if", &num1);
+    scanf ("%lf", &num1);
     printf ("Enter operator: ");
     scanf (" %c", &op);
 
     printf ("Enter a Number: ");
-    scanf ("%if", &num2);
+    scanf ("%lf", &num2);
 
     if (op == '+'){
         printf ("%f", num1 + num2);
@@ -27,7 +27,6 @@ int main () {
     } else {
     printf ("Error! Invalid operator");
     }
-    
 
-    return ;
+    return 0;
 }
