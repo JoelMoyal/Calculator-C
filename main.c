@@ -16,15 +16,14 @@ int main () {
     scanf ("%if", &num2);
 
     if (op == '+'){
-        printf ("&f", num1 + num2);
+        printf ("%f", num1 + num2);
     } else if (op == '-') {
-        printf ("&f", num1 - num2);
-    }
+        printf ("%f", num1 - num2);
     } else if (op == '/') {
-        printf ("&f", num1 / num2);
+        printf ("%f", num1 / num2);
     }
-     } else if (op == '*') {
-        printf ("&f", num1 * num2);
+     else if (op == '*') {
+        printf ("%f", num1 * num2);
     } else {
     printf ("Error! Invalid operator");
     }
